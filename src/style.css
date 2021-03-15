@@ -37,28 +37,46 @@ ul{
     background-color:#000;
     color: #fff;
     padding:o 1rem;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 }
 
 .navbar__links{
     justify-self: end;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 }
 
  .navbar__links li{
      font-size: 0.875rem;
      margin-right: 3rem;
      text-transform: uppercase;
+<<<<<<< HEAD
 
  }
 
+=======
+     
+ }
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 
 
 .navbar__links a{
     font-weight: 300;
     color: #fff;
     text-decoration:none;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 }
 
 .navbar__links a:hover{
@@ -71,15 +89,24 @@ ul{
     line-height: 1ch;     /*relativo ao tamanho do glifo 0 da fonte*/
     text-transform: uppercase;
     text-align: right;
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 
 }
 
 .logo-studion_subtitle{
     font-size: 0.875rem;
     font-weight: 300;
+<<<<<<< HEAD
 
 
+=======
+    
+    
+>>>>>>> d88d8db5248738e7d8cc2eb8bb645c557fd551e8
 }
 
 
