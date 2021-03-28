@@ -1,0 +1,107 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  margin: 2.5rem 0;
+  padding: 5.25rem 3.75rem 0; /*espaçamento do rodapé de 84 px*/
+}
+
+.footer.logo-studion {
+  justify-self: start;
+  margin: 0;
+}
+
+.logo-studion__subtitle {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-left: 4.375rem; /*deixa a margin do texto para a esquerda de 70px */
+}
+
+.footer__form {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 9ch auto;
+  gap: 1.25rem; /*espaçamento entre as letras do label 20 px */
+}
+
+.footer__form label {
+  font-size: 0.875rem; /*tamanho da fonte do label de 14 px */
+  font-weight: 300;
+  text-align: center;
+}
+
+.footer__form fieldset {
+  display: grid;
+  grid-template-columns: auto 4.0625rem;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.footer__form input {
+  background-color: var(--color-primary);
+  border: unset;
+  padding: 1rem;
+  font-size: 0.875rem; /*tamanho da fonte de 14 px do campo input */
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer__form input::placeholder {
+  color: #000;
+}
+
+.footer__form input:focus {
+  outline: unset;
+}
+
+.footer__form button {
+  cursor: pointer;
+  border: unset;
+  height: 100%; /*tamanho da fonte de 46 px do do botão do campo  input */
+  transition: 0.3s all ease;
+  background-color: #fff;
+}
+
+.footer__form button :hover {
+  color: var(--color-primary);
+}
+
+.footer__social {
+  justify-self: end; /*deixa os icones das redes social do rodapé a direita */
+}
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+  color: #fff;
+  margin-left: 0.2rem;
+}
+
+.footer__social a .fa-twitter,
+.footer__social a:visited a.fa-twitter,
+.footer__social a:active a.fa-twitter {
+  color: #000;
+}
+
+.footer hr {
+  border-color: #fff4;
+  margin: 0;
+}
+
+.footer p {
+  font-size: 0.875rem;
+  font-weight: 300;
+  text-align: center;
+  margin: 2.5rem 0; /*margin do hr de 40px*/
+}

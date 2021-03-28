@@ -1,0 +1,44 @@
+.hero img {
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+  height: 80vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.hero__background {
+  position: absolute;
+  z-index: -1;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero__copy {
+  position: absolute;
+  bottom: 0;
+  left: 680px;
+  width: 50vh;
+  padding: 7 1.875rem;
+}
+
+.hero__copy h2 {
+  margin: 0;
+  margin-bottom: -30px;
+  font-size: 6.75rem; /*tamanho da fonte do texto do .contato 120 px*/
+  line-height: 6.75rem;
+  letter-spacing: -0.3125rem; /*espaçamento entre as letras dp texto contato de 5px*/
+  color: var(--color-primary);
+}
+
+.hero__copy p {
+  margin: 0;
+  color: var(--clor-copy--alt);
+  font-size: 0.9375rem; /*tamanho da fonte do do parágrafo do .contato 120 px*/
+  line-height: 1.875rem; /*espaçamento entre as linhas do parágrafo do contanto*/
+  text-align: right;
+  padding: 30px;
+  padding-left: 70px;
+}
