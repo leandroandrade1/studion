@@ -1,11 +1,10 @@
-#slider {
+.slider {
   background-color: #000;
   color: #fff;
-  padding: 20px;
 }
 
 .slide {
-  height: 90vh;
+  height: 100vh;
   position: relative; /*prende o objeto filho dentro do objeto pai*/
 }
 .slide__background-image {
