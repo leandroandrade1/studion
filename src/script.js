@@ -1,11 +1,8 @@
-
-$(document).ready(() => {
-    const slickOptions = {
-      infinite: true,
-      autoplay: true, 
-      autoplaySpeed: 3000,
-      dots: false,   
-    };
-    $(".slider").slick(slickOptions){
-    
-  });
+$('.slider') .slick({
+  infinite: true,
+  speed: 50,
+  fade: true,
+  cssEase: 'linear',
+  dots: false
+});
+		
