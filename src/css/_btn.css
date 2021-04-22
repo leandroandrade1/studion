@@ -15,14 +15,17 @@
 .btn:active,
 .btn:focus,
 .btn--institutional,
-.btn--contact {
+.btn--contact,
+.btn--eventos {
+  
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
 }
 
 .btn--institutional:hover,
-.btn--contact:hover {
+.btn--contact:hover,
+.btn--eventos:hover {
   color: var(--color-copy);
   border-color: var(--color-primary);
   background: unset;
@@ -38,3 +41,14 @@
   border-color: var(--color-copy);
   background: unset;
 }
+
+.btn--eventos{
+  display: block;
+  position: relative;
+  left: 800px;
+  top: -180px;
+
+}
+
+
+

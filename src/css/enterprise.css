@@ -1,0 +1,40 @@
+.empresa {
+  position: relative;
+  height: 48vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+.empresa h2{
+  display: block;
+  position: relative;
+  right: 150px;
+  
+}
+.empresa p{
+  display: block;
+  position: relative;
+  right: 150px;
+}
+
+.administratora__image {
+  max-width: 450px;
+  float: right;
+  margin-left: 65px;
+}
+
+.background__clintes img {
+  width: 100%;
+  margin-bottom: -20px;
+}
+
+.video {
+  display: block;
+  position: relative;
+  left: 300px;
+  top: 25px;
+  width: 120vh;
+  padding-bottom: 93px;
+  padding-top: 89px;
+}

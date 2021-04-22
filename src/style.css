@@ -13,6 +13,9 @@
 
 @import "./css/_home.css";
 @import "./css/_contacts.css";
+@import "./css/enterprise.css";
+@import "./css/events.css";
+@import "./css/gallery.css";
 
 .hero img {
   width: 100%;

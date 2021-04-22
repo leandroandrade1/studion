@@ -36,6 +36,7 @@
   font-size: 0.875rem; /*tamanho da fonte do label de 14 px */
   font-weight: 300;
   text-align: center;
+ margin-bottom: ;
 }
 
 .footer__form fieldset {
@@ -105,3 +106,15 @@
   text-align: center;
   margin: 2.5rem 0; /*margin do hr de 40px*/
 }
+
+.footer-eventos hr {
+  border-color: #fff4;
+
+  
+  
+  
+}
+
+
+  
+  

@@ -3,6 +3,35 @@
   color: #fff;
 }
 
+.slider__prev-arrow,
+.slider__next-arrow{
+  width: 40px;
+  height: 40px;
+  border: 5px solid #fff;
+  border-right: unset;
+  border-bottom: unset;
+  opacity: 0.7;
+}
+
+
+.slider__prev-arrow {
+  z-index: 1;
+  left: 1rem; /* espaçamento da senta  para a direita de 16 px*/
+  transform: rotate(-45deg); /*controla a posição da seta da esquerda em sentido anti-horario */
+}
+
+.slider__next-arrow {
+  right: 1rem;
+  transform: rotate(135deg); /*controla a posição da seta da esquerda em sentido horario */
+}
+
+
+
+.slider__prev-arrow::before,
+.slider__next-arrow::before {
+  content: "";
+}
+
 .slide {
   height: 100vh;
   position: relative; /*prende o objeto filho dentro do objeto pai*/
